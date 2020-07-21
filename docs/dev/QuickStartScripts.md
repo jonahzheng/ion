@@ -3,12 +3,13 @@
 ### step 1. Clone
 
 git clone https://github.com/pion/ion
+
 cd ion
 
-### step 2.Creates a new network. 
+### step 2. Creates a new network. 
 docker network create ionnet
 
-### step 3.Start all modules
+### step 3. Start all modules
 ./scripts/allStart.sh
 
 
